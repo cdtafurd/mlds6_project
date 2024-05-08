@@ -2,18 +2,21 @@
 
 ## Nombre del Proyecto
 
-[Nombre del proyecto aquí]
+Clasificador para atención al usuario
 
 ## Objetivo del Proyecto
 
-[Descripción breve del objetivo del proyecto y por qué es importante]
+Establecer un mecanismo eficaz para clasificar las diferentes inquietudes que se presentan en el proceso de admisión de pregrado en la Universidad Nacional de Colombia. Esto es 
+importante puesto que permite responder de manera más efectiva las preguntas y problemas específicos de los aspirantes. Adicionalmente, el proceso de admisión suele ser confuso para 
+los aspirantes lo que responder de manera oportuna aumentaría la satisfacción de los usuarios. Por último, optimizar los recursos tanto tecnológicos como humanos es siempre imperativo 
+en cualquier organización. 
 
 ## Alcance del Proyecto
 
 ### Incluye:
 
 - [Descripción de los datos disponibles]
-- [Descripción de los resultados esperados]
+- Se espera tener un algoritmo eficiente de clasificación de las inquietudes que se generan a partir del proceso de admisión, este con el fin de que cada duda llegue al área correspondiente y responder de manera oportuna cada una de ellas
 - [Criterios de éxito del proyecto]
 
 ### Excluye:
@@ -28,18 +31,18 @@
 
 | Etapa | Duración Estimada | Fechas |
 |------|---------|-------|
-| Entendimiento del negocio y carga de datos | 2 semanas | del 1 de mayo al 15 de mayo |
-| Preprocesamiento, análisis exploratorio | 4 semanas | del 16 de mayo al 15 de junio |
-| Modelamiento y extracción de características | 4 semanas | del 16 de junio al 15 de julio |
-| Despliegue | 2 semanas | del 16 de julio al 31 de julio |
-| Evaluación y entrega final | 3 semanas | del 1 de agosto al 21 de agosto |
+| Entendimiento del negocio y carga de datos | 1 semanas | del 6 de mayo al 12 de mayo |
+| Preprocesamiento, análisis exploratorio | 2 semanas | del 13 de mayo al 26 de mayo |
+| Modelamiento y extracción de características | 2 semanas | del 27 de mayo al 9 de junio |
+| Despliegue | 2 semanas | del 10 de junio al 23 de junio |
+| Evaluación y entrega final | 1 semanas | del 24 de junio al 30 de junio |
 
-Hay que tener en cuenta que estas fechas son de ejemplo, estas deben ajustarse de acuerdo al proyecto.
 
 ## Equipo del Proyecto
 
-- [Nombre y cargo del líder del proyecto]
-- [Nombre y cargo de los miembros del equipo]
+- Cristián Taffur - Ingeniero líder
+- Julian Velandía - Científico de Datos 
+- Leonardo Puertas - Científico de Datos
 
 ## Presupuesto
 
