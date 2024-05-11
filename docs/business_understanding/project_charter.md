@@ -22,10 +22,32 @@ en cualquier organización.
 ### Excluye:
 
 - [Descripción de lo que no está incluido en el proyecto]
+El desarrollo de un nuevo sistema de gestión de bases de datos para almacenar las inquietudes de los aspirantes; se utilizará la infraestructura existente. Tambien se excluye la creación de contenido informativo o la actualización de los requisitos de admisión, ya que el proyecto se centrará exclusivamente en la clasificación y gestión de las consultas.
 
 ## Metodología
 
 [Descripción breve de la metodología que se utilizará para llevar a cabo el proyecto]
+
+## Definición de Requerimientos
+Reuniones con stakeholders para definir claramente las necesidades y expectativas, incluyendo la clasificación deseada de inquietudes.
+
+- Análisis de Datos
+Revisión de los datos de consultas previas para entender las categorías más frecuentes y desarrollar un esquema de clasificación.
+
+- Desarrollo del Algoritmo
+Implementación de técnicas de procesamiento de lenguaje natural y aprendizaje automático para desarrollar el algoritmo clasificador.
+
+- Integración
+Integración del algoritmo con las plataformas existentes para asegurar una transmisión fluida de las inquietudes a los departamentos correspondientes.
+
+- Pruebas
+Testeo intensivo del sistema para garantizar su eficacia y precisión en la clasificación en un ambiente controlado.
+
+- Lanzamiento y Capacitación
+Implementación del sistema y capacitación del personal sobre cómo utilizar la nueva herramienta.
+
+- Evaluación y Ajustes
+Monitoreo del sistema tras su implementación para realizar ajustes necesarios y optimización continua basada en el feedback recibido.
 
 ## Cronograma
 
@@ -47,6 +69,7 @@ en cualquier organización.
 ## Presupuesto
 
 [Descripción del presupuesto asignado al proyecto]
+El proyecto se desarrollarà con recursos propios, ya que se cuentan con los datos y que las plataformas de nube ofrecen capas gratuitas suficientes para desarrollar todo el proyecto
 
 ## Stakeholders
 
