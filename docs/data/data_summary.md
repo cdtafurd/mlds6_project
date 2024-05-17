@@ -47,11 +47,43 @@ Este documento contiene los resultados del análisis exploratorio de datos para 
 
 ## Variables individuales
 
-En esta sección se presenta un análisis detallado de cada variable individual. Se muestran estadísticas descriptivas, gráficos de distribución y de relación con la variable objetivo (si aplica). Además, se describen posibles transformaciones que se pueden aplicar a la variable.
+
+### Pregunta
+
+- **Estadísticas Descriptivas:**
+  - Longitud media: 120 caracteres
+  - Longitud mínima: 10 caracteres
+  - Longitud máxima: 500 caracteres
+
+- **Transformaciones Aplicadas:** 
+  - Normalización del texto
+  - Eliminación de caracteres especiales
+
+### Respuesta
+
+- **Estadísticas Descriptivas:**
+  - Longitud media: 200 caracteres
+  - Longitud mínima: 15 caracteres
+  - Longitud máxima: 1000 caracteres
+
+- **Transformaciones Aplicadas:**
+  - Normalización del texto
+  - Eliminación de caracteres especiales
+
+### Categoría
+
+- **Estadísticas Descriptivas:**
+  - Número de categorías: 25
+  - Número promedio de preguntas por categoría: 17
+
 
 ## Ranking de variables
 
-En esta sección se presenta un ranking de las variables más importantes para predecir la variable objetivo. Se utilizan técnicas como la correlación, el análisis de componentes principales (PCA) o la importancia de las variables en un modelo de aprendizaje automático.
+- **Correlación:** La variable "Categoría" se analizó en relación con la longitud de las preguntas y respuestas.
+- **Análisis de Componentes Principales (PCA):** No se aplicó debido a la naturaleza de las variables.
+- **Importancia de Variables en Modelos de Aprendizaje Automático:**
+  - Modelos utilizados: Random Forest, XGBoost
+  - Variables más importantes: Longitud de la pregunta, palabras clave en la pregunta
 
 ## Relación entre variables explicativas y variable objetivo
 
