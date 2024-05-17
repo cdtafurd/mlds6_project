@@ -6,17 +6,15 @@ Los datos han sido proporcionados por la Dirección Nacional de Admisiones de la
 
 ## Especificación de los scripts para la carga de datos
 
-- [ ] Especificar los scripts utilizados para la carga de los datos. 
+Se utiliza el script de scripts/preprocessing/consolidarHojas.py
 
 ## Referencias a rutas o bases de datos origen y destino
 
-- [ ] Especificar las rutas o bases de datos de origen y destino para los datos.
+Se utiliza el script de scripts/preprocessing/consolidarHojas.py
 
 ### Rutas de origen de datos
 
-
 Los archivos de origen de los datos se encuentran almacenados en el servicio de Google Drive. Esta elección de almacenamiento se debe a que los datos contienen información sensible y no cuentan con autorización para su divulgación pública. Por lo tanto, se han implementado medidas de seguridad estrictas para asegurar que el acceso a estos archivos esté restringido exclusivamente a personal autorizado, garantizando así la privacidad y protección de la información.
-
 
 Los datos de origen se encuentran en un archivo en formato .xlsx, que contiene aproximadamente 30 hojas de cálculo. Cada hoja está dedicada a un tema específico, relacionados con distintos aspectos del proceso de admisión y servicios estudiantiles. A continuación se detallan los temas abordados en cada hoja:
 
