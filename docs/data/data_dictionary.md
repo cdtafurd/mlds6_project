@@ -6,7 +6,7 @@ Se tiene como insumo principal dos campos en las bases de datos: la pregunta del
 
 | Variable | Descripción | Tipo de dato | Rango/Valores posibles | 
 | --- | --- | --- | --- | --- |
-| Pregunta | Indica la pregunta que se ha realizado a través del sistema de atención al usuario | caracter | texto | 
+| pregunta | Indica la pregunta que se ha realizado a través del sistema de atención al usuario | caracter | texto | 
 | Respuesta | Indica la respuesta que ha realizado el funcionario a la pregunta realizada | caracter | texto | 
 
 Adicionalmente la base de datos contiene ciertas clasificaciones de esas preguntas separadas por hojas, En etapa de preprocesamiento se llega a la siguiente estrutura:
@@ -15,11 +15,9 @@ Adicionalmente la base de datos contiene ciertas clasificaciones de esas pregunt
 
 | Variable | Descripción | Tipo de dato | Rango/Valores posibles | 
 | --- | --- | --- | --- | --- |
-| Pregunta | Indica la pregunta que se ha realizado a través del sistema de atención al usuario | caracter | texto | 
+| pregunta | Indica la pregunta que se ha realizado a través del sistema de atención al usuario | caracter | texto | 
 | Respuesta | Indica la respuesta que ha realizado el funcionario a la pregunta realizada | caracter | texto | 
 | Categoria | Indica la categoria a la que hace referencia la pregunta | caracter | Definidos por la dirección de admisiones | 
-| variable_4 | Descripción de la variable 4 | Tipo de dato | Rango/Valores posibles | 
-| variable_5 | Descripción de la variable 5 | Tipo de dato | Rango/Valores posibles | 
 
 - **Variable**: nombre de la variable.
 - **Descripción**: breve descripción de la variable.
