@@ -1,18 +1,49 @@
 # Reporte de Datos
 
-Este documento contiene los resultados del análisis exploratorio de datos.
+Este documento contiene los resultados del análisis exploratorio de datos para el proyecto "Nachabot".
 
 ## Resumen general de los datos
 
-En esta sección se presenta un resumen general de los datos. Se describe el número total de observaciones, variables, el tipo de variables, la presencia de valores faltantes y la distribución de las variables.
+### Descripción General
+
+- **Número total de observaciones:** 425
+- **Número total de variables:** 3 (Pregunta, Respuesta, Categoría)
+- **Tipos de variables:** 
+  - Pregunta: Texto
+  - Respuesta: Texto
+  - Categoría: Texto
+
+### Distribución de las Variables
+
+- **Preguntas y Respuestas:** Cada registro contiene una pregunta y su correspondiente respuesta.
+- **Categorías:** Hay 25 categorías diferentes de acuerdo con el tema de la pregunta.
+
+### Presencia de Valores Faltantes
+
+- **Pregunta:** 0 valores faltantes
+- **Respuesta:** 0 valores faltantes
+- **Categoría:** 0 valores faltantes
 
 ## Resumen de calidad de los datos
 
-En esta sección se presenta un resumen de la calidad de los datos. Se describe la cantidad y porcentaje de valores faltantes, valores extremos, errores y duplicados. También se muestran las acciones tomadas para abordar estos problemas.
+### Valores Faltantes
+
+- **Cantidad y porcentaje de valores faltantes:**
+  - Pregunta: 0 (0%)
+  - Respuesta: 0 (0%)
+  - Categoría: 0 (0%)
+
+### Valores Extremos y Errores
+
+- **Valores Extremos:** No se identificaron valores extremos en las variables de texto.
+- **Errores:** Se identificaron errores tipográficos en las preguntas y respuestas, los cuales fueron corregidos durante el preprocesamiento.
 
 ## Variable objetivo
 
-En esta sección se describe la variable objetivo. Se muestra la distribución de la variable y se presentan gráficos que permiten entender mejor su comportamiento.
+### Descripción
+
+- **Variable Objetivo:** Categoría
+- **Descripción:** La categoría a la que pertenece cada pregunta.
 
 ## Variables individuales
 
