@@ -4,36 +4,47 @@ Este documento contiene los resultados del modelo baseline.
 
 ## Descripción del modelo
 
-El modelo baseline es el primer modelo construido y se utiliza para establecer una línea base para el rendimiento de los modelos posteriores.
+El modelo baseline es un Perceptrón Multicapa (MLP) utilizado para clasificar preguntas relacionadas con el proceso de admisión en la Universidad Nacional de Colombia. El modelo fue entrenado utilizando el dataset de preguntas y respuestas proporcionado por la Dirección Nacional de Admisiones.
 
 ## Variables de entrada
 
-Lista de las variables de entrada utilizadas en el modelo.
+- `pregunta`: Texto de la pregunta realizada por el usuario.
 
 ## Variable objetivo
 
-Nombre de la variable objetivo utilizada en el modelo.
+- `tema_id`: Identificador del tema al que pertenece la pregunta.
 
 ## Evaluación del modelo
 
 ### Métricas de evaluación
 
-Descripción de las métricas utilizadas para evaluar el rendimiento del modelo.
+Las métricas utilizadas para evaluar el rendimiento del modelo incluyen:
+- Precisión (Accuracy)
+- Precisión (Precision)
+- Matriz de confusión
 
 ### Resultados de evaluación
 
-Tabla que muestra los resultados de evaluación del modelo baseline, incluyendo las métricas de evaluación.
+| Métrica            | Valor  |
+|--------------------|--------|
+| Precisión (Accuracy)| 0.78   |
+| Precisión (Precision) | 0.76   |
+
+![image](https://github.com/julianVelandia/Eureka/assets/52173621/b302211c-f6b8-4ce6-a706-2a0e5b363afe)
+
 
 ## Análisis de los resultados
 
-Descripción de los resultados del modelo baseline, incluyendo fortalezas y debilidades del modelo.
+El modelo baseline muestra una precisión del 78%, lo cual es un buen punto de partida. Sin embargo, el modelo presenta algunas debilidades, como una precisión ligeramente más baja en la clasificación de temas con pocas preguntas en el dataset. La matriz de confusión revela que algunas categorías se confunden con otras, indicando áreas para mejora.
 
 ## Conclusiones
 
-Conclusiones generales sobre el rendimiento del modelo baseline y posibles áreas de mejora.
+El rendimiento del modelo baseline es adecuado para establecer una línea base. Áreas de mejora incluyen:
+- Aumentar la cantidad de datos para temas con menos preguntas.
+- Ajustar los hiperparámetros del modelo.
+- Probar técnicas de preprocesamiento y modelos alternativos.
 
 ## Referencias
 
-Lista de referencias utilizadas para construir el modelo baseline y evaluar su rendimiento.
-
-Espero que te sea útil esta plantilla. Recuerda que puedes adaptarla a las necesidades específicas de tu proyecto.
+- Documentación de Scikit-learn para MLPClassifier
+- Dataset proporcionado por la Dirección Nacional de Admisiones de la Universidad Nacional de Colombia
