@@ -5,7 +5,7 @@
 Se tiene como insumo principal dos campos en las bases de datos: la pregunta del usuario y la respuesta proporcionada por el funcionario correspondiente. 
 
 | Variable | Descripción | Tipo de dato | Rango/Valores posibles | 
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- |
 | pregunta | Indica la pregunta que se ha realizado a través del sistema de atención al usuario | caracter | texto | 
 | Respuesta | Indica la respuesta que ha realizado el funcionario a la pregunta realizada | caracter | texto | 
 
@@ -14,7 +14,7 @@ Adicionalmente la base de datos contiene ciertas clasificaciones de esas pregunt
 ## Base de datos 2
 
 | Variable | Descripción | Tipo de dato | Rango/Valores posibles | 
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- |
 | pregunta | Indica la pregunta que se ha realizado a través del sistema de atención al usuario | caracter | texto | 
 | Respuesta | Indica la respuesta que ha realizado el funcionario a la pregunta realizada | caracter | texto | 
 | Categoria | Indica la categoria a la que hace referencia la pregunta | caracter | Definidos por la dirección de admisiones | 

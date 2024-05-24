@@ -1,8 +1,8 @@
-# Team Data Science Project Template
+# Nachabot - Team Data Science Project
 
-Esta plantilla es una implementación de la plantilla de proyecto de Team Data Science Process que actualmente se utiliza en el "Programa de Formación en Machine Learning y Data Science" en la Universidad Nacional de Colombia.
+Este proyecto es una implementación de un modelo clasificador de texto para automatizar y mejorar el proceso de admisión en la Universidad Nacional de Colombia. Se basa en la metodología del "Programa de Formación en Machine Learning y Data Science" de la universidad.
 
-Esta plantilla proporciona las siguientes carpetas y archivos:
+El proyecto está estructurado de la siguiente forma:
 
 * `src`: acá debe ir el código o implementación del proyecto en Python.
 * `docs`: en esta carpeta se encuentran las plantillas de los documentos definidos en la metodología.
