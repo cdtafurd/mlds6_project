@@ -4,8 +4,7 @@ import pandas as pd
 from numpy import ndarray
 import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.neural_network import MLPClassifier
-from sklearn.neural_network._multilayer_perceptron import MLPClassifier
+
 
 ## Montar Google Drive
 drive.mount('/content/drive')
