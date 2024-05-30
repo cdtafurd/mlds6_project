@@ -14,9 +14,12 @@
     numpy: 1.25.2
     matplotlib: 3.7.1
     sklearn: 1.2.2
+    mlflow: 3.7.1
+    mlflow.sklearn: 1.2.2
 
-- **Requisitos de seguridad:** (lista de requisitos de seguridad necesarios para el despliegue, como autenticación, encriptación de datos, etc.)
-- **Diagrama de arquitectura:** (imagen que muestra la arquitectura del sistema que se utilizará para desplegar el modelo)
+- **Requisitos de seguridad:** No necesita proceso de autentificación pues se trabaja internamente remitiendo la consulta al área encargada.
+- **Diagrama de arquitectura:** 
+![alt text](image.png)
 
 ## Código de despliegue
 
