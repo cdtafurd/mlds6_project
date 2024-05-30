@@ -19,7 +19,8 @@
 
 - **Requisitos de seguridad:** No necesita proceso de autentificación pues se trabaja internamente remitiendo la consulta al área encargada.
 - **Diagrama de arquitectura:** 
-![alt text](image.png)
+![Captura de pantalla 2024-05-30 185727](https://github.com/cdtafurd/mlds6_project/assets/119061844/6510066a-0548-4a8c-8214-cc20183b04a0)
+
 
 ## Código de despliegue
 
