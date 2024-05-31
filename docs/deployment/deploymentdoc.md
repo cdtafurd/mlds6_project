@@ -3,7 +3,7 @@
 ## Infraestructura
 
 - **Nombre del modelo:** Multicapa1: Es una red neuronal multicapa con  dos capas ocultas 1ra con 100 neuronas segunda con 2 neuronas, la extracción de características mediante bolsa de palabras.
-- **Plataforma de despliegue:** (plataforma donde se va a desplegar el modelo)
+- **Plataforma de despliegue:** Fast Api
 - **Requisitos técnicos:** Las versión de python es 3.10.12 (main, Nov 20 2023, 15:14:05), en la cual se usaron los siguientes paquetes en sus respectivas versiones
 
     pandas: 2.0.3
@@ -24,7 +24,7 @@
 
 ## Código de despliegue
 
-- **Archivo principal:** (nombre del archivo principal que contiene el código de despliegue)
+- **Archivo principal:** despliegue.py
 - **Rutas de acceso a los archivos:** (lista de rutas de acceso a los archivos necesarios para el despliegue)
 - **Variables de entorno:** (lista de variables de entorno necesarias para el despliegue)
 
