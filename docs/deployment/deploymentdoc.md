@@ -25,7 +25,7 @@
 ## Código de despliegue
 
 - **Archivo principal:** despliegue.py
-- **Rutas de acceso a los archivos:** (lista de rutas de acceso a los archivos necesarios para el despliegue)
+- **Rutas de acceso a los archivos:** Modelo elegido para el despliegue: https://github.com/cdtafurd/mlds6_project/blob/master/docs/deployment/model.joblib
 - **Variables de entorno:** (lista de variables de entorno necesarias para el despliegue)
 
 ## Documentación del despliegue
